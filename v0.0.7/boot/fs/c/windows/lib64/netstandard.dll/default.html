@@ -1,0 +1,78 @@
+<!-- bridge scripts -->
+
+<script>
+
+	// go to new page
+	function NAMESPACE_link(url) {
+		parent.postMessage(JSON.stringify([
+			"NAMESPACE", "link", url
+		]), parent.origin);
+	}
+	
+	// submit form
+	function NAMESPACE_form(element, url, method) {
+		const data = {};
+		
+		for (let item of element.querySelectorAll("input[name], textarea[name]")) {
+			if (item.type != "submit" || item.flag) {
+				data[item.name] = item.value;
+			}
+		}
+		
+		parent.postMessage(JSON.stringify([
+			"NAMESPACE", "form", url, method, data
+		]), parent.origin);
+		
+		return false;
+	}
+	
+	// set flag on submit element
+	function NAMESPACE_submit(element) {
+		element.flag = true;
+	}
+	
+	// push keyevents to parent, except when in a input/textarea
+	addEventListener("keydown", event => {
+		if (![
+			"input", "textarea"
+		].includes(event.target.tagName.toLowerCase())) {
+			parent.postMessage(JSON.stringify([
+				"NAMESPACE", "keydown", {
+					key: event.key,
+					ctrlKey: event.ctrlKey,
+					shiftKey: event.shiftKey,
+					altKey: event.altKey
+				}
+			]), parent.origin);
+		}
+	});
+	
+	// push contextmenu event to parent
+	addEventListener("contextmenu", event => {
+		parent.postMessage(JSON.stringify([
+			"NAMESPACE", "context", {
+				x: event.pageX,
+				y: event.pageY
+			}
+		]));
+		
+		event.preventDefault();
+	});
+	
+</script>
+
+<style>
+	
+	/* add link colors */
+	a[onclick] {
+		color: blue;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	
+	/* show no-script tags (noscript -> no-script) */
+	no-script {
+		display: block;
+	}
+	
+</style>

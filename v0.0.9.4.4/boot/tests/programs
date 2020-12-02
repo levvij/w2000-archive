@@ -1,0 +1,7 @@
+-;;;;;5000 c/windows/migrosoft/ie.exe http://info.cern.ch
+-;;;;;10 c/windows/system32/paint.exe
+-;;;;;10 c/windows/system32/rundll32.exe
+-;;;;;10 c/windows/system32/netyrn.exe
+-;;;;;10 c/windows/system32/cmd.exe
++;80;10;200;350;0 c/windows/migrosoft/wmi.exe
++;350;50;200;200;0 c/windows/system32/notepad.exe c/windows/system/autorun.bat

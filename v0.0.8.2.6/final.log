@@ -1,0 +1,175 @@
+Starting Windows...
+
+[mscorlib/load] c/windows/lib64/fileSystem.dll
+[mscorlib/load] c/windows/lib64/providers/stzr.dll
+[mscorlib/load] c/windows/lib64/providers/rrsp.dll
+[fs/reload] 
+[fs/stzr/reload] 
+[fs/stzr/mkdir] c
+[fs/stzr/mkdir] d
+[fs/rrsp/reload] 
+[mscorlib/load] c/windows/lib64/cypp.dll
+[fs/read] c/windows/lib64/cypp.dll
+[fs/rrsp/read] fetch c/windows/lib64/cypp.dll
+cypp: 4f820b80-114d32aa-def7f88-5ae0
+[mscorlib/load] c/windows/lib64/evntmg.dll
+[fs/read] c/windows/lib64/evntmg.dll
+[fs/rrsp/read] fetch c/windows/lib64/evntmg.dll
+[mscorlib/load] c/windows/lib64/netstandard.dll
+[fs/read] c/windows/lib64/netstandard.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/netstandard.dll/networking
+[fs/read] c/windows/lib64/netstandard.dll/networking
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/networking
+[mscorlib/subload] c/windows/lib64/netstandard.dll/proxy
+[fs/read] c/windows/lib64/netstandard.dll/proxy
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/proxy
+[mscorlib/subload] c/windows/lib64/netstandard.dll/dns
+[fs/read] c/windows/lib64/netstandard.dll/dns
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/dns
+[mscorlib/subload] c/windows/lib64/netstandard.dll/http
+[fs/read] c/windows/lib64/netstandard.dll/http
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/http
+[mscorlib/load] c/windows/lib64/process.dll
+[fs/read] c/windows/lib64/process.dll
+[fs/rrsp/read] fetch c/windows/lib64/process.dll
+[mscorlib/load] timer.dll
+[mscorlib/load] c/windows/lib64/timer.dll
+[fs/read] c/windows/lib64/timer.dll
+[fs/rrsp/read] fetch c/windows/lib64/timer.dll
+[mscorlib/load] c/windows/lib64/presentationFramework.dll
+[fs/read] c/windows/lib64/presentationFramework.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/resize
+[fs/read] c/windows/lib64/presentationFramework.dll/resize
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/resize
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/read] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/tooltip
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/window
+[fs/read] c/windows/lib64/presentationFramework.dll/window
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/window
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/ui
+[fs/read] c/windows/lib64/presentationFramework.dll/ui
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/ui
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/browser
+[fs/read] c/windows/lib64/presentationFramework.dll/browser
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/browser
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/interaction
+[fs/read] c/windows/lib64/presentationFramework.dll/interaction
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/interaction
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/clip
+[fs/read] c/windows/lib64/presentationFramework.dll/clip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/clip
+[mscorlib/load] c/windows/input/forms.dll
+[fs/read] c/windows/input/forms.dll
+[fs/rrsp/read] fetch c/windows/input/forms.dll
+[process.dll/load] c/windows/system32/backres.exe
+[backres.exe/start] 
+[fs/read] c/windows/system32/backres.exe
+[fs/rrsp/read] fetch c/windows/system32/backres.exe
+[backres.exe/update] 
+[process.dll/load] c/windows/system32/cmd.exe c/windows/system/autorun.bat -h
+[cmd.exe/start] 
+[fs/read] c/windows/system32/cmd.exe
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll
+[fs/read] c/windows/lib64/shell32.dll
+[fs/rrsp/read] fetch c/windows/lib64/shell32.dll
+[window-fe1026c3/state] minimized
+[window-fe1026c3/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] fetch c/windows/system/autorun.bat
+[window-fe1026c3/state] closed
+[cmd.exe/exit] success
+[process.dll/run] c/windows/migrosoft/ie.exe http://info.cern.ch
+[process.dll/load] c/windows/migrosoft/ie.exe http://info.cern.ch
+[ie.exe/start] 
+[fs/read] c/windows/migrosoft/ie.exe
+[fs/rrsp/read] fetch c/windows/migrosoft/ie.exe
+[mscorlib/load] print.dll
+[mscorlib/load] c/windows/lib64/print.dll
+[fs/read] c/windows/lib64/print.dll
+[fs/rrsp/read] fetch c/windows/lib64/print.dll
+[window-fb2c3041/render] new render function
+[fs/read] c/windows/lib64/netstandard.dll/default.html
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/default.html
+[window-fb2c3041/state] closed
+[ie.exe/exit] success
+[process.dll/run] c/windows/system32/paint.exe
+[process.dll/load] c/windows/system32/paint.exe
+[paint.exe/start] 
+[fs/read] c/windows/system32/paint.exe
+[fs/rrsp/read] fetch c/windows/system32/paint.exe
+[window-676a686e/render] new render function
+[window-676a686e/state] closed
+[paint.exe/exit] success
+[process.dll/run] c/windows/system32/icosurf.exe
+[process.dll/load] c/windows/system32/icosurf.exe
+[icosurf.exe/start] 
+[fs/read] c/windows/system32/icosurf.exe
+[fs/rrsp/read] fetch c/windows/system32/icosurf.exe
+[window-bb3b1230/render] new render function
+[window-bb3b1230/state] closed
+[icosurf.exe/exit] success
+[process.dll/run] c/windows/system32/rundll32.exe
+[process.dll/load] c/windows/system32/rundll32.exe
+[rundll32.exe/start] 
+[fs/read] c/windows/system32/rundll32.exe
+[fs/rrsp/read] fetch c/windows/system32/rundll32.exe
+[window-bd85b2e2/render] new render function
+[window-bd85b2e2/state] closed
+[rundll32.exe/exit] success
+[process.dll/run] c/windows/system32/netyrn.exe
+[process.dll/load] c/windows/system32/netyrn.exe
+[netyrn.exe/start] 
+[fs/read] c/windows/system32/netyrn.exe
+[fs/rrsp/read] fetch c/windows/system32/netyrn.exe
+[mscorlib/load] c/windows/lib64/timer.dll cached
+[window-fb73aa30/render] new render function
+[window-fb73aa30/state] closed
+[netyrn.exe/exit] success
+[process.dll/run] c/windows/system32/cmd.exe
+[process.dll/load] c/windows/system32/cmd.exe
+[cmd.exe/start] 
+[fs/read] c/windows/system32/cmd.exe
+[fs/rrsp/read] cache c/windows/system32/cmd.exe
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll cached
+[window-04289763/render] new render function
+[process.dll/run] c/windows/migrosoft/wmi.exe
+[process.dll/load] c/windows/migrosoft/wmi.exe
+[wmi.exe/start] 
+[fs/read] c/windows/migrosoft/wmi.exe
+[fs/rrsp/read] fetch c/windows/migrosoft/wmi.exe
+[mscorlib/load] wmplib.dll
+[mscorlib/load] c/windows/lib64/wmplib.dll
+[fs/read] c/windows/lib64/wmplib.dll
+[fs/rrsp/read] fetch c/windows/lib64/wmplib.dll
+[mscorlib/load] c/windows/lib64/tagzil.dll
+[fs/read] c/windows/lib64/tagzil.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/tagzil.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/tagzil.dll/index
+[fs/read] c/windows/lib64/tagzil.dll/index
+[fs/rrsp/read] fetch c/windows/lib64/tagzil.dll/index
+[mscorlib/subload] c/windows/lib64/tagzil.dll/id3v2
+[fs/read] c/windows/lib64/tagzil.dll/id3v2
+[fs/rrsp/read] fetch c/windows/lib64/tagzil.dll/id3v2
+[mscorlib/load] timer.dll
+[mscorlib/load] c/windows/lib64/timer.dll cached
+[window-c895b45a/render] new render function
+[process.dll/run] c/windows/system32/notepad.exe c/windows/system/autorun.bat
+[process.dll/load] c/windows/system32/notepad.exe c/windows/system/autorun.bat
+[notepad.exe/start] 
+[fs/read] c/windows/system32/notepad.exe
+[fs/rrsp/read] fetch c/windows/system32/notepad.exe
+[window-52fa8a98/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] cache c/windows/system/autorun.bat
+[process.dll/run] c/windows/system32/wininfo.exe
+[process.dll/load] c/windows/system32/wininfo.exe
+[wininfo.exe/start] 
+[fs/read] c/windows/system32/wininfo.exe
+[fs/rrsp/read] fetch c/windows/system32/wininfo.exe
+[window-c77fc186/render] new render function

@@ -1,0 +1,4 @@
+-;;;;;10 c/windows/system32/paint.exe
+-;;;;;10 c/windows/system32/rundll32.exe
+-;;;;;10 c/windows/system32/cmd.exe
++;350;50;200;200;0 c/windows/system32/notepad.exe c/windows/system/autorun.bat

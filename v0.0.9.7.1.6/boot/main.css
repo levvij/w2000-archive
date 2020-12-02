@@ -1,0 +1,169 @@
+* {
+	display: block;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: none;
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: none;
+}
+
+body {
+	background: black;
+	
+	cursor: none;
+	image-rendering: pixelated;
+}
+
+screen {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+@font-face {
+	font-family: Tah;
+	font-weight: bold;
+	src: url('fs/c/windows/fonts/tahoma-bold.ttf');
+}
+
+@font-face {
+	font-family: Tah;
+	font-weight: normal;
+	src: url('fs/c/windows/fonts/tahoma-normal.ttf');
+}
+
+@font-face {
+	font-family: WFont;
+	src: url('fs/c/windows/fonts/default.ttf');
+}
+
+@font-face {
+  font-family: IBMVGA8;
+  src: url('fs/c/windows/fonts/ibm-vga8.ttf');
+}
+
+[font=monospace] {
+	font-family: IBMVGA8;
+}
+
+[font=lres] {
+	font-family: WFont;
+}
+
+[font=default] {
+	font-family: Tah;
+}
+
+@keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	
+	49% {
+		opacity: 1;
+	}
+	
+	50% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}
+
+[hidden], head, script, style {
+	display: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	user-select: none;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+full-overlay {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	align-items: center;
+	justify-content: center;
+	background: black;
+	z-index: 100000000;
+	cursor: none;
+}
+
+full-overlay[bsod] {
+	background: #010080;
+}
+
+full-overlay[bsod] console-cursor {
+	animation: 0.5s flash infinite;
+}
+
+console {
+	position: relative;
+	font-family: IBMVGA8, monospace;
+	font-size: 16px;
+	color: #A8A8A8;
+	white-space: pre;
+	
+	--action: white;
+	--error: red;
+	--warn: yellow;
+	--mark: #007afa;
+}
+
+console-m {
+	display: inline;
+}
+
+console-cursor {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+console-cursor:after {
+	content: "#";
+	background: var(--color, #A8A8A8);
+	color: var(--color, #A8A8A8);
+}
+
+console-cell {
+	display: inline;
+	white-space: pre;
+}
+
+full-overlay console {
+	width: 90vmin;
+	height: 60vmin;
+}
+
+@media (-webkit-device-pixel-ratio: 3) {
+	full-overlay console {
+		font-size: 8px;
+		width: 90vw;
+		height: 60vh;
+	}
+}

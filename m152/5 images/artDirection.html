@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Art Direction mit "picture" und "source"</title>
+
+        <style>
+            #imageContainer {
+                max-width: 600px;
+                border: 2px solid black;
+                margin: 0 auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="imageContainer">
+            <picture>
+				<source media="(max-width: 45em)" srcset="images/vertikal.jpg" />
+				<source media="(min-width: 45em)" srcset="images/horizontal.jpg" />
+				<img src="images/vertikal.jpg" />
+			</picture>
+        </div>
+    </body>
+</html>

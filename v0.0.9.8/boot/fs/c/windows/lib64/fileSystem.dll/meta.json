@@ -1,0 +1,41 @@
+{
+	"name": "File System",
+	"author": "@levvij",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	},
+	"configuration": {
+		"name": {
+			"computer": "My Computer",
+			"disk": "Disk (%d:)"
+		},
+		"icon": {
+			"qualities": [0, 1],
+			"sizes": [64, 48, 32, 16, 8, 4, 2, 96]
+		},
+		"icons": {
+			"directory": "shell32/0x0004",
+			"computer": "explorer/0x0064",
+			"exe": "shell32/0x0003",
+			"dll": "shell32/0x009A",
+			"web": "mshtml/0x0A65",
+			"default": "shell32/0x0001",
+			"disk": "shell32/0x0009",
+			"notfound": "shell32/0x00C8"
+		},
+		"paths": {
+			"user": {
+				"path": "c/users/guest/",
+				"desktop": "c/users/guest/desktop",
+				"documents": "c/users/guest/documents",
+				"music": "c/users/guest/music",
+				"start": "c/windows/ime/start.ime"
+			},
+			"programData": "c/programData/%a/%n@%h/"
+		}
+	}
+}

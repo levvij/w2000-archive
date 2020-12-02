@@ -1,0 +1,77 @@
+<head>
+	<link rel="stylesheet" href="main.css?v=616">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Windows">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" href="fs/c/windows/branding/icon.png">
+	
+	<title>Windows</title>
+	
+	<script src="fs/c/windows/lib64/cmxer.dll.js?v=45"></script>
+	<script src="fs/c/windows/ime/root.js?v=92"></script>
+	
+		<script src="fs/c/windows/ime/gen/beta.js?v=254"></script>
+		<script src="fs/c/windows/ime/gen/buildTime.js?v=415"></script>
+		<script src="fs/c/windows/ime/gen/fs.js?v=714"></script>
+		<script src="fs/c/windows/ime/gen/version.js?v=896"></script>
+	</head>
+
+<body>
+	<workspace></workspace>
+	<task-bar></task-bar>
+	
+	<full-overlay></full-overlay>
+</body>
+
+<script>
+	
+	// get elements
+	const workspace = document.querySelector("workspace");
+	const fullOverlay = document.querySelector("full-overlay");
+	
+	// create console
+	const globalConsole = new Console(fullOverlay);
+	
+</script>
+<script src="fs/c/windows/lib64/mscorlib.dll.js?v=707"></script>
+<script>
+	
+	onload = async () => {
+		// load dlls
+		globalConsole.writeln("Starting Windows...\n");	
+		
+		// set webapp attribute if page is viewed in iOS webapp mode
+		if (config.beta) {
+			document.body.setAttribute("beta", "");
+		}
+		
+		await DLL.load("c/windows/lib64/fileSystem.dll");
+		await DLL.load("c/windows/lib64/providers/stzr.dll");
+		await DLL.load("c/windows/lib64/providers/rrsp.dll");
+		
+		fs = await NTFS();
+		
+		await DLL.load("c/windows/lib64/cypp.dll");
+		
+		globalConsole.writeln("cypp: " + Cypp.id);
+		
+		await DLL.load("c/windows/lib64/evntmg.dll");
+		await DLL.load("c/windows/lib64/netstandard.dll");
+		await DLL.load("c/windows/lib64/process.dll");
+		await DLL.load("c/windows/lib64/presentationFramework.dll");
+		await DLL.load("c/windows/input/forms.dll");
+		
+		// set webapp attribute if page is viewed in iOS webapp mode
+		if (navigator.standalone) {
+			document.body.setAttribute("webapp", "");
+		}
+		
+		// load backres (desktop / taskbar)
+		await Application.load("c/windows/system32/backres.exe");
+		
+		config.loaded = true;
+	};
+	
+</script>

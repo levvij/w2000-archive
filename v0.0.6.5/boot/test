@@ -1,0 +1,107 @@
+#!/usr/bin/node
+
+(async () => {
+	const puppeteer = require("/usr/lib/node_modules/puppeteer");
+	const fs = require("fs");
+
+	const config = {};
+	eval(fs.readFileSync("fs/c/windows/ime/gen/version.js").toString());
+
+	console.log("testing version " + config.version);
+	
+	const path = "../win-versions/v" + config.version + "/";
+	if (fs.existsSync(path)) {
+		for (let file of fs.readdirSync(path)) {
+			fs.unlinkSync(path + "/" + file);
+		}
+	} else {
+		fs.mkdirSync(path);
+	}
+
+	const browser = await puppeteer.launch();
+	const page = await browser.newPage();
+	
+	await page.setViewport({
+		width: 1000,
+		height: 800
+	});
+	
+	console.log("loading page");
+	
+	await page.goto("https://dotcdn.us/win-beta/", {
+		waitUntil: "networkidle2"
+	});
+	
+	console.log("taking initial screenshot");
+	
+	await page.screenshot({
+		fullPage: true,
+		path: path + "screenshot-initial.png"
+	});
+	
+	const screenshotApplication = p => {
+		console.log("screenshotting " + p);
+		
+		return new Promise(async done => {
+			await page.evaluate("config._ = null");
+			await page.evaluate("Application.run('" + p + "').then(() => config._ = true)");
+			
+			const next = async () => {
+				if (await page.evaluate("config._")) {
+					await page.screenshot({
+						fullPage: true,
+						path: path + "screenshot-" + p.split("/").pop() + ".png"
+					});
+
+					await page.evaluate("Window.instances.map(i => i.close())");
+					
+					done();
+				} else {
+					setTimeout(next, 10);
+				}
+			};
+			
+			next();
+		});
+	};
+	
+	const next = async () => {
+		if (await page.evaluate("config.loaded")) {
+			console.log("fully loaded\ntaking desktop screenshot");
+			
+			await page.setViewport({
+				width: 1000,
+				height: 800
+			});
+			
+			await page.screenshot({
+				fullPage: true,
+				path: path + "screenshot-cover.png"
+			});
+			
+			await page.setViewport({
+				width: 1000,
+				height: 800
+			});
+			
+			await page.screenshot({
+				fullPage: true,
+				path: path + "screenshot-desktop.png"
+			});
+			
+			for (let program of [
+				"c/windows/system32/cmd.exe",
+				"c/users/guest/desktop/Lookbook/Season 01 - OFFICE/greg.jpg"
+			]) {
+				await screenshotApplication(program);
+			}
+			
+			await browser.close();
+		} else {
+			setTimeout(next, 100);
+		}
+	};
+	
+	console.log("waiting for full load");
+	next();
+})();

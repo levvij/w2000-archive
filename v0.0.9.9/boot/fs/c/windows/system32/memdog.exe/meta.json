@@ -1,0 +1,12 @@
+{
+	"name": "Memory Usage",
+	"icon": "",
+	"author": "@ufgregt",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	}
+}

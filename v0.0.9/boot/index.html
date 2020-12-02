@@ -1,0 +1,110 @@
+<head>
+	<link rel="stylesheet" href="main.css?v=88">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Windows">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" href="fs/c/windows/branding/icon.png">
+	
+	<title>Windows</title>
+	
+	<script src="fs/c/windows/lib64/cmxer.dll.js?v=580"></script>
+	<script src="fs/c/windows/ime/root.js?v=21"></script>
+	
+		<script src="fs/c/windows/ime/gen/beta.js?v=888"></script>
+		<script src="fs/c/windows/ime/gen/buildTime.js?v=606"></script>
+		<script src="fs/c/windows/ime/gen/rrsp.js?v=155"></script>
+		<script src="fs/c/windows/ime/gen/version.js?v=887"></script>
+	</head>
+
+<body>
+	<workspace></workspace>
+	<task-bar></task-bar>
+	
+	<full-overlay></full-overlay>
+</body>
+
+<script>
+	
+	// get elements
+	const workspace = document.querySelector("workspace");
+	const fullOverlay = document.querySelector("full-overlay");
+	
+	// create console
+	const globalConsole = new Console(fullOverlay);
+	
+</script>
+<script src="fs/c/windows/lib64/mscorlib.dll.js?v=883"></script>
+<script>
+	
+	onload = async () => {
+		// load dlls
+		globalConsole.writeln("Starting Windows...\n");
+		
+		const bootLog = globalConsole.createUnit("boot");
+		
+		// set beta attribute
+		if (config.beta) {
+			document.body.setAttribute("beta", "");
+		}
+		
+		// add query config
+		if (location.search.substr(1)) {
+			let params = JSON.parse(decodeURIComponent(location.search.substr(1)));
+
+			if (!Array.isArray(params)) {
+				params = [params];
+			}
+
+			for (let param of params) {
+				if (param.rrsp) {
+					bootLog.action("queryconf", param.name || "ParamRRSP");
+					
+					config.fs.providers.push({
+						type: "rrsp",
+						name: param.name || "ParamRRSP",
+						root: param.rrsp,
+						deleteList: "rrsp_" + param.rssp + "_dl",
+						ray: param.rrsp + "/" + param.ray + "?name=" + param.name + "&root=" + param.rrsp
+					});
+				}
+			}
+		}
+		
+		// load fs
+		await DLL.load("c/windows/lib64/fileSystem.dll");
+		await DLL.load("c/windows/lib64/providers/stzr.dll");
+		await DLL.load("c/windows/lib64/providers/rrsp.dll");
+		
+		fs = await NTFS();
+		
+		// load all config exts
+		for (let file of fs.listAll("c/windows/ime/config")) {
+			bootLog.action("autoconfig", fs.name(file));
+			
+			await DLL.load(file);
+		}
+		
+		await DLL.load("c/windows/lib64/cypp.dll");
+		
+		globalConsole.writeln("cypp: " + Cypp.id);
+		
+		await DLL.load("c/windows/lib64/evntmg.dll");
+		await DLL.load("c/windows/lib64/process.dll");
+		await DLL.load("c/windows/lib64/netstandard.dll");
+		await DLL.load("c/windows/lib64/presentationFramework.dll");
+		await DLL.load("c/windows/input/forms.dll");
+		
+		// set webapp attribute if page is viewed in iOS webapp mode
+		if (navigator.standalone) {
+			document.body.setAttribute("webapp", "");
+		}
+		
+		// load backres (desktop / taskbar)
+		await Application.load("c/windows/system32/backres.exe");
+		
+		config.loaded = true;
+	};
+	
+</script>

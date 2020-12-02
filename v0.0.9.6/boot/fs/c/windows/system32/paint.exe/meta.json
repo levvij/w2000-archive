@@ -1,0 +1,48 @@
+{
+	"name": "Paint",
+	"icon": "mspaint/0x0002",
+	"author": "@levvij",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	},
+	"opens": [
+		{
+			"ext": "jpg",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "jpeg",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "png",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "gif",
+			"icon": "mspaint/0x0003"
+		}
+	],
+	"edits": [
+		{
+			"ext": "jpg",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "jpeg",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "png",
+			"icon": "mspaint/0x0003"
+		},
+		{
+			"ext": "gif",
+			"icon": "mspaint/0x0003"
+		}
+	]
+}

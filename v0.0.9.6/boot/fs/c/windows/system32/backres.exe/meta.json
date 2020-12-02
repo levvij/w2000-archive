@@ -1,0 +1,13 @@
+{
+	"name": "background",
+	"author": "@levvij",
+	"version": "1.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	},
+	"opens": [],
+	"edits": []
+}

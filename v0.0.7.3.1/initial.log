@@ -1,0 +1,80 @@
+Starting Windows...
+
+[mscorlib/load] c/windows/lib64/fileSystem.dll
+[mscorlib/load] c/windows/lib64/providers/stzr.dll
+[mscorlib/load] c/windows/lib64/providers/rrsp.dll
+[fs/reload] 
+[fs/stzr/reload] 
+[fs/stzr/mkdir] c
+[fs/stzr/mkdir] d
+[fs/rrsp/reload] 
+[mscorlib/load] c/windows/lib64/cypp.dll
+[fs/read] c/windows/lib64/cypp.dll
+[fs/rrsp/read] fetch c/windows/lib64/cypp.dll
+cypp: c6ab060c-bd2b92fb-e70c11b-2367
+[mscorlib/load] c/windows/lib64/evntmg.dll
+[fs/read] c/windows/lib64/evntmg.dll
+[fs/rrsp/read] fetch c/windows/lib64/evntmg.dll
+[mscorlib/load] c/windows/lib64/netstandard.dll
+[fs/read] c/windows/lib64/netstandard.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/netstandard.dll/networking
+[fs/read] c/windows/lib64/netstandard.dll/networking
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/networking
+[mscorlib/subload] c/windows/lib64/netstandard.dll/proxy
+[fs/read] c/windows/lib64/netstandard.dll/proxy
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/proxy
+[mscorlib/subload] c/windows/lib64/netstandard.dll/dns
+[fs/read] c/windows/lib64/netstandard.dll/dns
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/dns
+[mscorlib/subload] c/windows/lib64/netstandard.dll/http
+[fs/read] c/windows/lib64/netstandard.dll/http
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/http
+[mscorlib/load] c/windows/lib64/process.dll
+[fs/read] c/windows/lib64/process.dll
+[fs/rrsp/read] fetch c/windows/lib64/process.dll
+[mscorlib/load] c/windows/lib64/presentationFramework.dll
+[fs/read] c/windows/lib64/presentationFramework.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/resize
+[fs/read] c/windows/lib64/presentationFramework.dll/resize
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/resize
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/read] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/tooltip
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/window
+[fs/read] c/windows/lib64/presentationFramework.dll/window
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/window
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/ui
+[fs/read] c/windows/lib64/presentationFramework.dll/ui
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/ui
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/browser
+[fs/read] c/windows/lib64/presentationFramework.dll/browser
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/browser
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/interaction
+[fs/read] c/windows/lib64/presentationFramework.dll/interaction
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/interaction
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/clip
+[fs/read] c/windows/lib64/presentationFramework.dll/clip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/clip
+[mscorlib/load] c/windows/input/forms.dll
+[fs/read] c/windows/input/forms.dll
+[fs/rrsp/read] fetch c/windows/input/forms.dll
+[process.dll/load] c/windows/system32/backres.exe
+[backres.exe/start] 
+[fs/read] c/windows/system32/backres.exe
+[fs/rrsp/read] fetch c/windows/system32/backres.exe
+[backres.exe/update] 
+[process.dll/load] c/windows/system32/cmd.exe c/windows/system/autorun.bat -h
+[cmd.exe/start] 
+[fs/read] c/windows/system32/cmd.exe
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll
+[fs/read] c/windows/lib64/shell32.dll
+[fs/rrsp/read] fetch c/windows/lib64/shell32.dll
+[window-b2e4a3cf/state] minimized
+[window-b2e4a3cf/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] fetch c/windows/system/autorun.bat
+[window-b2e4a3cf/state] closed

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Responsive Images mit dem sizes-Attribut</title>
+        <style>
+			
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            @media screen and (min-width: 28em) {
+                img {
+                    width: 50%;
+                }
+            }
+
+            @media screen and (min-width: 50em) {
+                img {
+                    width: 33%;
+                }
+            }
+			
+        </style>
+    </head>
+    <body>
+        <div id="imageContainer">
+            <img src="images/medium.jpg" srcset="images/320.jpg 320w, images/600.jpg 600w, images/900.jpg 900w">
+        </div>
+
+        <!-- Der nachfolgende script-Block sorgt dafür, dass Ihr img-Element verfielfältigt wird -->
+        <script>
+            /*
+			
+			var imgContainer = document.getElementById('imageContainer');
+            var img = document.getElementsByTagName('img')[0];
+            imgContainer.innerHTML = null;  // Quizfrage: Wieso diese Zeile?
+            for (var i = 0; i < 12; i++) {
+                var clone = img.cloneNode(true);
+                clone.setAttribute('alt', 'Klon ' + i + 1);
+                imgContainer.appendChild(clone);
+            }
+			
+			*/
+			
+			const image = document.querySelector("img");
+			image.parentElement.textContent = "";
+			
+			for (let i = 0; i < 12; i++) {
+				image.parentElement.appendChild(image.cloneNode(true)).alt = "Klon " + i;
+			}
+        </script>
+    </body>
+</html>

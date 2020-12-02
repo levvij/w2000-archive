@@ -1,0 +1,17 @@
+{
+	"name": "Process Management",
+	"author": "@levvij",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	},
+	"configuration": {
+		"errorWindow": {
+			"text": "%n stopped working\nError: %e",
+			"title": "%n stopped working"
+		}
+	}
+}

@@ -1,0 +1,96 @@
+doc h2, 
+doc h3, 
+doc h4 {
+	margin-top: 2em;
+}
+
+dll,
+new,
+require-p-root {
+	position: relative;
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+	margin-top: calc(1em + 10px);
+	margin-bottom: 20px;
+}
+
+dll::before,
+new::before,
+require-p-root::before {
+	position: absolute;
+	top: -1em;
+	padding-right: 1ch;
+	font-size: 0.7em;
+	background: white;
+}
+
+dll::before {
+	content: "Associated DLL";
+}
+
+new::before {
+	content: "New in v" attr(version);
+}
+
+require-p-root::before {
+	content: "Requires proprietary root";
+}
+
+new-tag,
+obsolete-tag {
+	display: inline-block;
+	padding: 2px 5px;
+	margin: -2px 0;
+	border-radius: 2px;
+	color: black;
+	background: #ddd;
+}
+
+new-tag::before,
+obsolete-tag::before {
+	opacity: 0.5;
+}
+
+new-tag::before {
+	content: "New in v" attr(version) ": ";
+}
+
+obsolete-tag::before {
+	content: "Obsolete in v" attr(version) ": ";
+}
+
+pre {
+	padding: 10px;
+	border: 1px solid #ddd;
+	white-space: pre-wrap;
+}
+
+pre json-param,
+pre argument {
+	white-space: normal;
+	display: inline-block;
+}
+
+pre json-param {
+	margin-top: 5px;
+	color: #07f;
+}
+
+pre argument {
+	color: #29f;
+}
+
+pre json-param::before {
+	content: attr(type) ": ";
+}
+
+pre argument::before {
+	padding-left: 2ch;
+	content: "%" attr(name) ": ";
+}
+
+@media (prefers-color-scheme: dark) {
+	dll::before, new::before, require-p-root::before {
+		background: #222;
+	}
+}

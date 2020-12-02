@@ -1,0 +1,12 @@
+{
+	"name": "Paint",
+	"icon": "mspaint/0x0002",
+	"author": "@levvij",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	}
+}

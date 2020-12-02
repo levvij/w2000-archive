@@ -1,0 +1,337 @@
+Starting Windows...
+
+[mscorlib/load] c/windows/lib64/fileSystem.dll
+[mscorlib/load] c/windows/lib64/fileSystem.dll/providers/lssp.dll
+[mscorlib/load] c/windows/lib64/fileSystem.dll/providers/rrsp.dll
+[mscorlib/load] c/windows/lib64/fileSystem.dll/providers/stzr.dll
+[fs/reload] 
+[fs/stzr/reload] 
+[fs/stzr/mkdir] c
+[fs/stzr/mkdir] d
+[fs/rrsp/reload] 
+[fs/rrsp/read] fetch c/windows/input/forms.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/console.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/cryptography.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/dllinsp.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/evntmg.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/fileSystem.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/fileSystem.dll/providers/lssp.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/fileSystem.dll/providers/rrsp.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/fileSystem.dll/providers/stzr.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/ieframe.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/mscorlib.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/print.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/process.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/shell32.dll/meta.json
+[fs/rrsp/read] fetch c/windows/lib64/timer.dll/meta.json
+[fs/rrsp/read] fetch c/windows/system32/backres.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/explorer.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/memdog.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/notepad.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/paint.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/rundll32.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/shutdown.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/start.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/taskmgr.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/wininfo.exe/meta.json
+[mscorlib/load] c/windows/lib64/cryptography.dll
+[fs/read] c/windows/lib64/cryptography.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/cryptography.dll/main.js
+cypp: e8d497e6-777d8a10-e867563-af39
+[mscorlib/load] c/windows/lib64/evntmg.dll
+[fs/read] c/windows/lib64/evntmg.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/evntmg.dll/main.js
+[mscorlib/load] c/windows/lib64/process.dll
+[fs/read] c/windows/lib64/process.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/process.dll/main.js
+[mscorlib/load] timer.dll
+[mscorlib/load] c/windows/lib64/timer.dll
+[fs/read] c/windows/lib64/timer.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/timer.dll/main.js
+[mscorlib/load] c/windows/lib64/netstandard.dll
+[fs/read] c/windows/lib64/netstandard.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/main.js
+[mscorlib/subload] c/windows/lib64/netstandard.dll/dns.js
+[fs/read] c/windows/lib64/netstandard.dll/dns.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/dns.js
+[mscorlib/subload] c/windows/lib64/netstandard.dll/http.js
+[fs/read] c/windows/lib64/netstandard.dll/http.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/http.js
+[mscorlib/subload] c/windows/lib64/netstandard.dll/nogap.js
+[fs/read] c/windows/lib64/netstandard.dll/nogap.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/nogap.js
+[nogap/reconnect] wss://nogap.dotcdn.us/
+[nogap/connect] as e8d497e6-777d8a10-e867563-af39
+[nogap/connected] node: 0, active clients: 195f81c9-51aa7592-2240894-6b19,588ad7df-ebe27cc9-0f5d764-64e0,e8d497e6-777d8a10-e867563-af39
+[nogap/server:0] start
+[mscorlib/subload] c/windows/lib64/netstandard.dll/nttp.js
+[fs/read] c/windows/lib64/netstandard.dll/nttp.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/nttp.js
+[mscorlib/subload] c/windows/lib64/netstandard.dll/proxy.js
+[fs/read] c/windows/lib64/netstandard.dll/proxy.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/proxy.js
+[mscorlib/subload] c/windows/lib64/netstandard.dll/url.js
+[fs/read] c/windows/lib64/netstandard.dll/url.js
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/url.js
+[mscorlib/load] c/windows/lib64/presentationFramework.dll
+[fs/read] c/windows/lib64/presentationFramework.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/main.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/clip.js
+[fs/read] c/windows/lib64/presentationFramework.dll/clip.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/clip.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/csc.js
+[fs/read] c/windows/lib64/presentationFramework.dll/csc.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/csc.js
+[csc/font-load] tahoma-regular@11px/normal
+[csc/font-load] tahoma-regular@11px/bold
+[csc/font-load] tahoma-regular@12px/normal
+[csc/font-load] tahoma-regular@12px/bold
+[csc/font-load] tahoma-regular@15px/normal
+[csc/font-load] tahoma-regular@15px/bold
+[csc/font-load] tahoma-regular@17px/normal
+[csc/font-load] tahoma-regular@17px/bold
+[csc/font-load] tahoma-regular@19px/normal
+[csc/font-load] tahoma-regular@19px/bold
+[csc/font-load] tahoma-regular@21px/normal
+[csc/font-load] tahoma-regular@21px/bold
+[csc/font-load] tahoma-regular@23px/normal
+[csc/font-load] tahoma-regular@23px/bold
+[csc/font-load] tahoma-regular@25px/normal
+[csc/font-load] tahoma-regular@25px/bold
+[fs/read] c/windows/csc/0000-root.css
+[fs/rrsp/read] fetch c/windows/csc/0000-root.css
+[fs/read] c/windows/csc/0001-desktop.css
+[fs/rrsp/read] fetch c/windows/csc/0001-desktop.css
+[fs/read] c/windows/csc/0001-resize.css
+[fs/rrsp/read] fetch c/windows/csc/0001-resize.css
+[fs/read] c/windows/csc/0001-scroll.css
+[fs/rrsp/read] fetch c/windows/csc/0001-scroll.css
+[fs/read] c/windows/csc/0001-window.css
+[fs/rrsp/read] fetch c/windows/csc/0001-window.css
+[fs/read] c/windows/csc/0002-ui.css
+[fs/rrsp/read] fetch c/windows/csc/0002-ui.css
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/interaction.js
+[fs/read] c/windows/lib64/presentationFramework.dll/interaction.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/interaction.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/resize.js
+[fs/read] c/windows/lib64/presentationFramework.dll/resize.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/resize.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/screen.js
+[fs/read] c/windows/lib64/presentationFramework.dll/screen.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/screen.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/tooltip.js
+[fs/read] c/windows/lib64/presentationFramework.dll/tooltip.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/tooltip.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/ui.js
+[fs/read] c/windows/lib64/presentationFramework.dll/ui.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/ui.js
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/window.js
+[fs/read] c/windows/lib64/presentationFramework.dll/window.js
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/window.js
+[mscorlib/load] c/windows/input/forms.dll
+[fs/read] c/windows/input/forms.dll/main.js
+[fs/rrsp/read] fetch c/windows/input/forms.dll/main.js
+[process.dll/load] c/windows/system32/backres.exe
+[backres.exe/start] 
+[fs/read] c/windows/system32/backres.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/backres.exe/main.js
+[backres.exe/update] 
+[process.dll/load] c/windows/system32/cmd.exe c/windows/system/autorun.bat -h
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll
+[fs/read] c/windows/lib64/shell32.dll/main.js
+[fs/rrsp/read] fetch c/windows/lib64/shell32.dll/main.js
+[cmd.exe/start] 
+[fs/read] c/windows/system32/cmd.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-3aa00a84/state] minimized
+[window-3aa00a84/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] fetch c/windows/system/autorun.bat
+[window-3aa00a84/state] closed
+[cmd.exe/exit] success
+[process.dll/run] c/windows/system32/paint.exe
+[process.dll/load] c/windows/system32/paint.exe
+[paint.exe/start] 
+[fs/read] c/windows/system32/paint.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/paint.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-d077e46a/render] new render function
+[fs/readuri] c/windows/system32/icons/floimg/0x0003/-1/0.png
+[fs/rrsp/readuri] c/windows/system32/icons/floimg/0x0003/-1/0.png
+[window-d077e46a/state] closed
+[paint.exe/exit] success
+[process.dll/run] c/windows/system32/rundll32.exe
+[process.dll/load] c/windows/system32/rundll32.exe
+[rundll32.exe/start] 
+[fs/read] c/windows/system32/rundll32.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/rundll32.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-44036a2f/render] new render function
+[window-44036a2f/state] closed
+[rundll32.exe/exit] success
+[process.dll/run] c/windows/system32/cmd.exe
+[process.dll/load] c/windows/system32/cmd.exe
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll cached
+[cmd.exe/start] 
+[fs/read] c/windows/system32/cmd.exe/main.js
+[fs/rrsp/read] cache c/windows/system32/cmd.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-06254b7d/render] new render function
+[window-06254b7d/state] closed
+[cmd.exe/exit] success
+[process.dll/run] c/windows/system32/notepad.exe c/windows/system/autorun.bat
+[process.dll/load] c/windows/system32/notepad.exe c/windows/system/autorun.bat
+[notepad.exe/start] 
+[fs/read] c/windows/system32/notepad.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/notepad.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-e9e20dfd/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] cache c/windows/system/autorun.bat
+[process.dll/run] c/windows/system32/wininfo.exe
+[process.dll/load] c/windows/system32/wininfo.exe
+[wininfo.exe/start] 
+[fs/read] c/windows/system32/wininfo.exe/main.js
+[fs/rrsp/read] fetch c/windows/system32/wininfo.exe/main.js
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/min.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/max.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/close.png
+[window-83acbf34/render] new render function
+[fs/readuri] c/windows/branding/logo.png
+[fs/rrsp/readuri] c/windows/branding/logo.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png
+[fs/rrsp/readuri] c/windows/lib64/presentationFramework.dll/resources/expand.png

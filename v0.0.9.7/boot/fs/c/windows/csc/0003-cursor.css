@@ -1,0 +1,11 @@
+cursor {
+	position: fixed;
+	top: 100vh;
+	left: 100vh;
+	z-index: 1000000;
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 32px;
+	pointer-events: none;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+}

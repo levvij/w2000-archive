@@ -1,0 +1,145 @@
+<html>
+
+<head>
+	<title>Multimedia file formats</title>
+	<style>
+		table {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		tr {
+			border: 1px solid black;
+		}
+
+		th {
+			text-align: left;
+		}
+
+		td {
+			text-align: left;
+		}
+
+		ul {
+			padding: 0 1rem;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<table>
+
+		<!-- TODO: Insert your full name and the name of the described file format into the following table caption -->
+		<caption>Description of file format
+			<file format="mp3">, by
+				<your name="Levi"></your>
+			</file>
+		</caption>
+
+		<tbody>
+			<tr id="name">
+				<th>File format</th>
+				<td>mp3</td>
+			</tr>
+
+			<tr id="full-name">
+				<th>Full name</th>
+				<td>MPEG Audio Layer III</td>
+			</tr>
+
+			<tr id="media-type">
+				<th>Media type</th>
+				<td>
+					<input type="checkbox" id="type-image" value="image" disabled>
+					<label for="type-image">Image</label><br>
+					<input type="checkbox" id="type-audio" value="audio" disabled checked>
+					<label for="type-audio">Audio</label><br>
+					<input type="checkbox" id="type-video" value="video" disabled>
+					<label for="type-video">Video</label>
+				</td>
+			</tr>
+
+			<tr id="information-loss">
+				<th>Information loss</th>
+				<td>
+					<!-- TODO: Indicate whether the file format is lossless or lossy by adding the attribute checked="checked" at the corresponding checkbox -->
+					<input type="checkbox" id="lossless" value="lossless" disabled>
+					<label for="lossless">lossless</label><br>
+					<input type="checkbox" id="lossy" value="lossy" checked disabled>
+					<label for="lossy">lossy</label>
+				</td>
+			</tr>
+
+			<tr id="description">
+				<th>Description</th>
+				<td>
+					<p>
+						MP3 is the most commonly used file format for Audio. 
+						It is compressed by removing details most humans can't hear and audio systems can't play, but saves a lot of space
+					</p>
+				</td>
+			</tr>
+
+			<tr id="advantages">
+				<th>Advantages</th>
+				<td>
+					<ul>
+						<li>Small</li>
+						<li>Can contain ID3 tags</li>
+						<li>Plays on almost every device</li>
+						<li>Can be live streamed</li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr id="disadvantages">
+				<th>Disadvantages</th>
+				<td>
+					<ul>
+						<li>Lossy</li>
+						<li>Requires a decoder</li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr id="useage-in-weg">
+				<th>Usage in web</th>
+				<td>
+					<p>
+						Can be used with the standard audio tag (type = mpeg)
+					</p>
+				</td>
+			</tr>
+
+			<tr id="example">
+				<th>Example</th>
+				<td>
+					<a href="https://dotcdn.us/win/m152/test.mp3" target="_blank" title="Test mp3">Example File (0:18), &copy; Florian Furrer</a>
+				</td>
+			</tr>
+
+			<tr id="sources">
+				<th>Sources</th>
+				<td>
+					<ul>
+						<li>
+							<a href="https://de.wikipedia.org/wiki/MP3" target="_blank" title="Wikipedia">Wikipedia</a>
+						</li>
+						<li>
+							<a href="https://www.w3schools.com/HTML/html5_audio.asp" target="_blank" title="Use in HTML">Use of MP3 in HTML</a>
+						</li>
+					</ul>
+				</td>
+			</tr>
+
+			<!-- TODO: Done! Finally remove all TODO comments in the above html code! -->
+
+		</tbody>
+	</table>
+
+
+</body>
+
+</html>

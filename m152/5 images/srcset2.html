@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Responsive Images mit srcset</title>
+        <style>
+            #imageContainer {
+                text-align: center;
+            }
+
+            img {
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="imageContainer">
+            <img src="images/large.jpg" srcset="images/large.jpg 3x, images/medium.jpg 2x, images/small.jpg 1x" 
+        </div>
+    </body>
+</html>

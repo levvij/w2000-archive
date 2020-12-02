@@ -1,0 +1,143 @@
+Starting Windows...
+
+[mscorlib/load] c/windows/lib64/fileSystem.dll
+[mscorlib/load] c/windows/lib64/providers/stzr.dll
+[mscorlib/load] c/windows/lib64/providers/rrsp.dll
+[fs/reload] 
+[fs/stzr/reload] 
+[fs/stzr/mkdir] c
+[fs/stzr/mkdir] d
+[fs/rrsp/reload] 
+[fs/rrsp/read] fetch c/windows/system32/backres.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/explorer.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/memdog.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/notepad.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/paint.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/rundll32.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/shutdown.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/start.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/taskmgr.exe/meta.json
+[fs/rrsp/read] fetch c/windows/system32/wininfo.exe/meta.json
+[mscorlib/load] c/windows/lib64/cypp.dll
+[fs/read] c/windows/lib64/cypp.dll
+[fs/rrsp/read] fetch c/windows/lib64/cypp.dll
+cypp: 6d36a7d0-5dbb752e-5fe5b0f-249c
+[mscorlib/load] c/windows/lib64/evntmg.dll
+[fs/read] c/windows/lib64/evntmg.dll
+[fs/rrsp/read] fetch c/windows/lib64/evntmg.dll
+[mscorlib/load] c/windows/lib64/process.dll
+[fs/read] c/windows/lib64/process.dll
+[fs/rrsp/read] fetch c/windows/lib64/process.dll
+[mscorlib/load] timer.dll
+[mscorlib/load] c/windows/lib64/timer.dll
+[fs/read] c/windows/lib64/timer.dll
+[fs/rrsp/read] fetch c/windows/lib64/timer.dll
+[mscorlib/load] c/windows/lib64/netstandard.dll
+[fs/read] c/windows/lib64/netstandard.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/netstandard.dll/networking
+[fs/read] c/windows/lib64/netstandard.dll/networking
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/networking
+[mscorlib/subload] c/windows/lib64/netstandard.dll/url
+[fs/read] c/windows/lib64/netstandard.dll/url
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/url
+[mscorlib/subload] c/windows/lib64/netstandard.dll/proxy
+[fs/read] c/windows/lib64/netstandard.dll/proxy
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/proxy
+[mscorlib/subload] c/windows/lib64/netstandard.dll/dns
+[fs/read] c/windows/lib64/netstandard.dll/dns
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/dns
+[mscorlib/subload] c/windows/lib64/netstandard.dll/http
+[fs/read] c/windows/lib64/netstandard.dll/http
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/http
+[mscorlib/subload] c/windows/lib64/netstandard.dll/nogap
+[fs/read] c/windows/lib64/netstandard.dll/nogap
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/nogap
+[nogap/reconnect] wss://nogap.dotcdn.us/
+[nogap/connect] as 6d36a7d0-5dbb752e-5fe5b0f-249c
+[nogap/connected] node: 0, active clients: 195f81c9-51aa7592-2240894-6b19,588ad7df-ebe27cc9-0f5d764-64e0,6d36a7d0-5dbb752e-5fe5b0f-249c
+[nogap/server:0] start
+[mscorlib/subload] c/windows/lib64/netstandard.dll/nttp
+[fs/read] c/windows/lib64/netstandard.dll/nttp
+[fs/rrsp/read] fetch c/windows/lib64/netstandard.dll/nttp
+[mscorlib/load] c/windows/lib64/presentationFramework.dll
+[fs/read] c/windows/lib64/presentationFramework.dll/meta.dli
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/meta.dli
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/screen
+[fs/read] c/windows/lib64/presentationFramework.dll/screen
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/screen
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/csc
+[fs/read] c/windows/lib64/presentationFramework.dll/csc
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/csc
+[csc/font-load] tahoma-regular@11px/normal
+[csc/font-load] tahoma-regular@11px/bold
+[csc/font-load] tahoma-regular@12px/normal
+[csc/font-load] tahoma-regular@12px/bold
+[csc/font-load] tahoma-regular@15px/normal
+[csc/font-load] tahoma-regular@15px/bold
+[csc/font-load] tahoma-regular@17px/normal
+[csc/font-load] tahoma-regular@17px/bold
+[csc/font-load] tahoma-regular@19px/normal
+[csc/font-load] tahoma-regular@19px/bold
+[csc/font-load] tahoma-regular@21px/normal
+[csc/font-load] tahoma-regular@21px/bold
+[csc/font-load] tahoma-regular@23px/normal
+[csc/font-load] tahoma-regular@23px/bold
+[csc/font-load] tahoma-regular@25px/normal
+[csc/font-load] tahoma-regular@25px/bold
+[fs/read] c/windows/csc/0000-root.css
+[fs/rrsp/read] fetch c/windows/csc/0000-root.css
+[fs/read] c/windows/csc/0001-desktop.css
+[fs/rrsp/read] fetch c/windows/csc/0001-desktop.css
+[fs/read] c/windows/csc/0001-resize.css
+[fs/rrsp/read] fetch c/windows/csc/0001-resize.css
+[fs/read] c/windows/csc/0001-scroll.css
+[fs/rrsp/read] fetch c/windows/csc/0001-scroll.css
+[fs/read] c/windows/csc/0001-window.css
+[fs/rrsp/read] fetch c/windows/csc/0001-window.css
+[fs/read] c/windows/csc/0002-ui.css
+[fs/rrsp/read] fetch c/windows/csc/0002-ui.css
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/resize
+[fs/read] c/windows/lib64/presentationFramework.dll/resize
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/resize
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/read] c/windows/lib64/presentationFramework.dll/tooltip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/tooltip
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/window
+[fs/read] c/windows/lib64/presentationFramework.dll/window
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/window
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/ui
+[fs/read] c/windows/lib64/presentationFramework.dll/ui
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/ui
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/browser
+[fs/read] c/windows/lib64/presentationFramework.dll/browser
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/browser
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/interaction
+[fs/read] c/windows/lib64/presentationFramework.dll/interaction
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/interaction
+[mscorlib/subload] c/windows/lib64/presentationFramework.dll/clip
+[fs/read] c/windows/lib64/presentationFramework.dll/clip
+[fs/rrsp/read] fetch c/windows/lib64/presentationFramework.dll/clip
+[mscorlib/load] c/windows/input/forms.dll
+[fs/read] c/windows/input/forms.dll
+[fs/rrsp/read] fetch c/windows/input/forms.dll
+[process.dll/load] c/windows/system32/backres.exe
+[backres.exe/start] 
+[fs/read] c/windows/system32/backres.exe/main
+[fs/rrsp/read] fetch c/windows/system32/backres.exe/main
+[backres.exe/update] 
+[process.dll/load] c/windows/system32/cmd.exe c/windows/system/autorun.bat -h
+[cmd.exe/start] 
+[mscorlib/load] shell32.dll
+[mscorlib/load] c/windows/lib64/shell32.dll
+[fs/read] c/windows/lib64/shell32.dll
+[fs/rrsp/read] fetch c/windows/lib64/shell32.dll
+[fs/read] c/windows/system32/cmd.exe/main
+[fs/rrsp/read] fetch c/windows/system32/cmd.exe/main
+[window-43772946/state] minimized
+[window-43772946/render] new render function
+[fs/read] c/windows/system/autorun.bat
+[fs/rrsp/read] fetch c/windows/system/autorun.bat
+[window-43772946/state] closed
+[cmd.exe/exit] success

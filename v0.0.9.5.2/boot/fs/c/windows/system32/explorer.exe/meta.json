@@ -1,0 +1,18 @@
+{
+	"name": "File Explorer",
+	"icon": "explorer/0x0064",
+	"author": "@levvij",
+	"version": "0.0.0.0",
+	"dependencies": [],
+	"requirements": {
+		"os": {
+			"version": "0"
+		}
+	},
+	"opens": [
+		{
+			"ext": "."
+		}
+	],
+	"edits": []
+}
